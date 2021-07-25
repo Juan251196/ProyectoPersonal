@@ -2,7 +2,7 @@
 
     .container-header {
         width: 20%;
-        margin-left: 355px;
+        margin-left: 295px;
     }
 
   .nav_responsive-ul {
@@ -28,8 +28,8 @@
 
   .container-main img {
       object-fit: contain;
-      width: 750px;
-      margin-left: 100px;
+      width: 700px;
+      margin-left: -30px;
       margin-bottom: 50px;
   }
   .card {
