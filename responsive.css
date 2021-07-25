@@ -1,7 +1,8 @@
 @media (max-width:500px) {
+
     .container-header {
         width: 20%;
-        margin-left: 345px;
+        margin-left: 355px;
     }
 
   .nav_responsive-ul {
@@ -10,8 +11,11 @@
   }
 
   
+#menu{
+    background-color: #F2FCFB;
+}
 
-  .nav_li {
+  .nav_li .navbar {
       display: inline-block;
       padding: 9px;
       background-color:#F2FCFB;
@@ -24,7 +28,13 @@
 
   .container-main img {
       object-fit: contain;
-      width: 800px;
+      width: 750px;
+      margin-left: 100px;
+      margin-bottom: 50px;
+  }
+  .card {
+      margin-left: 250px;
+      margin-bottom: 50px;
   }
 h2{
     text-align: center;
