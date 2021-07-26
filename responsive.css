@@ -1,7 +1,7 @@
 @media (max-width:500px) {
     .container-header {
         width: 20%;
-        margin-left: 345px;
+        margin-left: 300px;
     }
 
   .nav_responsive-ul {
@@ -19,12 +19,13 @@
     
   .container-main{
       width: 10% ;
-      margin: 20px 20px 0px 360px;
+      margin: 20px 20px 0px 325px;
   }
 
   .container-main img {
       object-fit: contain;
-      width: 800px;
+      width: 650px;
+      margin-right: 0;
   }
 h2{
     text-align: center;
@@ -43,7 +44,7 @@ h2{
 
 .container-recetas {
     display: grid;
-    margin-left: 400px;
+    margin-left: 100px;
     padding:20px;
     
 }
@@ -55,7 +56,7 @@ h2{
     grid-template-columns: 700px;
     grid-template-rows: repeat(4, 500px);
     gap: 40px;
-    margin-left: 250px;
+    margin-left: 150px;
     margin-right: -190px;
     margin-bottom: -350px;
     
@@ -67,27 +68,28 @@ h2{
     align-items: center;
     justify-content: center;
     width: 100%;
+    padding-right: 0;
     
 }
 
 
 
 .facebook {
-    margin: 5px 10px 20px 500px;
-    padding:100px;
-    width: 600px
+    margin: 5px 10px 20px 350px;
+    padding:20px;
+    width: 500px
 }
 
 .instagram {
-    margin: 5px 10px 20px 450px;
-    padding:100px;
-    width: 600px
+    margin: 5px 10px 20px 300px;
+    padding:20px;
+    width: 500px
 }
 
 .whatsapp {
-    margin: 5px 10px 20px 500px;
-    padding:100px;
-    width: 600px
+    margin: 5px 10px 20px 350px;
+    padding:20px;
+    width: 500px
 }
 
 
