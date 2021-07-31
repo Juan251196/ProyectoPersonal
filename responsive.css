@@ -102,25 +102,29 @@ h2{
     align-items: center;
     justify-content: center;
     width: 100%;
+    margin: auto;
     
 }
 
 .facebook {
-    margin: 5px 10px 20px 500px;
+    margin: 0px 0px 0px 500px;
     padding:100px;
-    width: 600px
+    padding-right: 0;
+    width: 600px;
 }
 
 .instagram {
-    margin: 5px 10px 20px 450px;
+    margin: 0px 0px 0px 450px;
     padding:100px;
-    width: 600px
+    padding-right: 0;
+    width: 600px;
 }
 
 .whatsapp {
-    margin: 5px 10px 20px 500px;
+    margin: 0px 0px 0px 500px;
     padding:100px;
-    width: 600px
+    padding-right: 0;
+    width: 600px;
 }
 
 
