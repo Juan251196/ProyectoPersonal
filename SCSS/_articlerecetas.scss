@@ -1,0 +1,60 @@
+.container-recetas {
+    display: grid;
+    
+    justify-content: center;
+    grid-template-columns: 700px;
+    grid-template-rows: repeat(4, 500px);
+    gap: 40px;
+    margin-left: -200px;
+    margin-right: -190px;
+    margin-bottom: -350px;
+    
+    div {
+        border-style: outset;
+        border-radius: 10px;
+        border-color: #F6F7D9 ;
+        margin-top: 0px;
+        background-color: #D3FAFB ;
+    }
+
+    h3 {
+        display: inline-block;
+    background-color: #D3FAFB ;
+    padding: 0px 40px 20px;
+    margin:0px 0px 50px 0px ;
+    font-family: $font-nav;
+    font-size: 21px;
+    }
+
+    .omelette {
+        display: block;
+        width: 40%;
+        margin-top: -45px;
+        margin-left: 30px;
+        
+    }
+    
+    
+    .enchiladas {
+        display: block;
+        width: 40%;
+        margin-top: -35px;
+        margin-left: 15px;
+    }
+    
+    .wrap {
+        display: block;
+        width: 40%;
+        margin-top: -35px;
+        margin-left: 15px;
+    }
+
+    .pasos-receta1 {
+        display: inline-block;
+        background-color: $bg-receta;
+        margin-left: -20px;
+        margin-top: 0px;
+        justify-content: flex-end;
+        
+    }
+}

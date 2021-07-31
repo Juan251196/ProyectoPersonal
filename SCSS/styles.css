@@ -1,0 +1,181 @@
+/* colores */
+/*fuentes*/
+/* img*/
+.redes {
+  display: inline-block;
+  margin-top: -500px;
+}
+
+.container-redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 80px;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+
+.container-redes img {
+  margin: auto;
+  width: 25%;
+  margin-left: 100px;
+}
+
+.instagram {
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+  margin-left: -100px;
+}
+
+.whatsapp {
+  margin-left: -90px;
+}
+
+* {
+  background-color: #F2FCFB;
+}
+
+.container-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar a {
+  font-family: "Satisfy", cursive;
+  font-size: 26px;
+  margin: 0px 25px;
+}
+
+.carousel {
+  margin: 10px 300px;
+  padding-left: 325px;
+}
+
+h2 {
+  color: #FDBBC7;
+  font-family: "Satisfy", cursive;
+  margin: 5px 0px 0px 900px;
+}
+
+.container-testimonios {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (600px)[2];
+      grid-template-columns: repeat(2, 600px);
+  -ms-grid-rows: (600px)[2];
+      grid-template-rows: repeat(2, 600px);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 50px 200px;
+  gap: 30px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+.container-testimonios div {
+  display: -ms-grid;
+  display: grid;
+  gap: 10px;
+  border: double;
+  border-width: 8px;
+  margin: 30px;
+  padding: 50px;
+  border-radius: 100px 50px 20px 200px;
+  border-color: #BBF7F0;
+}
+
+.container-testimonios img {
+  height: 175px;
+  margin-left: 250px;
+  margin-top: -45px;
+  border-radius: 60px;
+  opacity: .8;
+}
+
+.container-recetas {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-grid-columns: 700px;
+      grid-template-columns: 700px;
+  -ms-grid-rows: (500px)[4];
+      grid-template-rows: repeat(4, 500px);
+  gap: 40px;
+  margin-left: -200px;
+  margin-right: -190px;
+  margin-bottom: -350px;
+}
+
+.container-recetas div {
+  border-style: outset;
+  border-radius: 10px;
+  border-color: #F6F7D9;
+  margin-top: 0px;
+  background-color: #D3FAFB;
+}
+
+.container-recetas h3 {
+  display: inline-block;
+  background-color: #D3FAFB;
+  padding: 0px 40px 20px;
+  margin: 0px 0px 50px 0px;
+  font-family: "Satisfy", cursive;
+  font-size: 21px;
+}
+
+.container-recetas .omelette {
+  display: block;
+  width: 40%;
+  margin-top: -45px;
+  margin-left: 30px;
+}
+
+.container-recetas .enchiladas {
+  display: block;
+  width: 40%;
+  margin-top: -35px;
+  margin-left: 15px;
+}
+
+.container-recetas .wrap {
+  display: block;
+  width: 40%;
+  margin-top: -35px;
+  margin-left: 15px;
+}
+
+.container-recetas .pasos-receta1 {
+  display: inline-block;
+  background-color: #D3FAFB;
+  margin-left: -20px;
+  margin-top: 0px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+/*# sourceMappingURL=styles.css.map */

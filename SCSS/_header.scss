@@ -1,0 +1,21 @@
+* {
+    background-color: $primary-color;
+}
+
+.container-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar a {
+    font-family: $font-nav;
+    font-size: $size-nav;
+    margin: 0px 25px;
+}
+
+.carousel {
+    margin: $centrado-img;
+    padding-left: 325px;
+}
