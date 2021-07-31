@@ -1,10 +1,7 @@
 @media (max-width:500px) {
-    
     .container-header {
-        display: flex;
-        flex-direction: row;
         width: 20%;
-        margin-left: 300px;
+        margin-left: 345px;
     }
 
   .nav_responsive-ul {
@@ -22,13 +19,12 @@
     
   .container-main{
       width: 10% ;
-      margin: 20px 20px 0px 325px;
+      margin: 20px 20px 0px 360px;
   }
 
   .container-main img {
       object-fit: contain;
-      width: 650px;
-      margin-right: 0;
+      width: 800px;
   }
 h2{
     text-align: center;
@@ -47,9 +43,8 @@ h2{
 
 .container-recetas {
     display: grid;
-    margin-left: 100px;
+    margin-left: 400px;
     padding:20px;
-    
 }
 
 .container-recetas {
@@ -57,13 +52,49 @@ h2{
     
     justify-content: center;
     grid-template-columns: 700px;
-    grid-template-rows: repeat(4, 500px);
+    grid-template-rows: repeat(4, 650px);
     gap: 40px;
-    margin-left: 150px;
+    margin-left: 250px;
     margin-right: -190px;
-    margin-bottom: -350px;
+    margin-bottom: -450px;
+    font-size: 15px;
     
 }
+
+.container-recetas h3 {
+    margin-top: 90px;
+    margin-right: 25px;
+    margin-left: 20px;
+    font-size: 35px;
+}
+
+.container-recetas img {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 165px;
+    border-radius: 40px ;
+}
+
+.container-recetas section {
+    margin: 15px 0 5px 10px ;
+}
+.container-recetas ul  {
+    background-color: #D3FAFB;
+    list-style-type: none;
+}
+
+.container-recetas p {
+    background-color: #D3FAFB;
+}
+.platillo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+
+
+
 
 .container-redes {
     display: flex;
@@ -71,28 +102,29 @@ h2{
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding-right: 0;
+    margin: auto;
     
 }
 
-
-
 .facebook {
-    margin: 5px 10px 20px 350px;
-    padding:20px;
-    width: 500px
+    margin: 0px 0px 0px 500px;
+    padding:100px;
+    padding-right: 0;
+    width: 600px;
 }
 
 .instagram {
-    margin: 5px 10px 20px 300px;
-    padding:20px;
-    width: 500px
+    margin: 0px 0px 0px 450px;
+    padding:100px;
+    padding-right: 0;
+    width: 600px;
 }
 
 .whatsapp {
-    margin: 5px 10px 20px 350px;
-    padding:20px;
-    width: 500px
+    margin: 0px 0px 0px 500px;
+    padding:100px;
+    padding-right: 0;
+    width: 600px;
 }
 
 
